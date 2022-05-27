@@ -1,0 +1,12 @@
+header {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  button {
+    background-color: $primaryBtn;
+    &::after {
+      background-color: $secondaryColor;
+      content: "hellooo";
+    }
+  }
+}
