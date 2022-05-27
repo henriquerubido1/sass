@@ -29,5 +29,6 @@ header button::after, .contact button::after {
 
 .contact {
   background-color: #fa879a;
+  width: 80%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -4,4 +4,5 @@
 .contact {
   @extend header;
   background-color: $primaryBtn;
+  width: 100% - 20%;
 }
