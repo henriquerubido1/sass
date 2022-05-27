@@ -8,8 +8,9 @@ header {
   justify-content: center;
   button {
     background-color: $primaryBtn;
-    &:hover {
+    &::after {
       background-color: $secondaryColor;
+      content: "hellooo";
     }
   }
 }
